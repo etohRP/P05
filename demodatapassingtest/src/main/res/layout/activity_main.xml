@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/buttonPassInt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASS INTEGER VALUE TO 2ND ACTIVITY" />
+
+    <Button
+        android:id="@+id/buttonPassCha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASS CHARACTER VALUE TO 2ND AVTIVITY" />
+
+    <TextView
+        android:id="@+id/buttonPassDouble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                     PASS DOUBLE VALUE TO 2ND ACTIVITY" />
+</LinearLayout>
